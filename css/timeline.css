@@ -1,0 +1,449 @@
+@charset "utf-8";
+
+body
+{
+	margin: 0;
+	font: 12px/180% "微软雅黑","宋体";
+}
+
+html,body
+{
+	-webkit-text-size-adjust: none;
+	background: #f7f7f7;
+}
+
+div,form,input,textarea,p,ul,li,dl,dt,dd,h1,table,h2
+{
+	padding: 0;
+	margin: 0;
+}
+
+li
+{
+	list-style-type: none;
+}
+
+ol,ul
+{
+	list-style: none;
+}
+
+input
+{
+	vertical-align: middle;
+	font-size: 100%;
+}
+
+img
+{
+	vertical-align: top;
+	border: 0;
+}
+
+em,i
+{
+	font-style: normal;
+}
+
+ul, li
+{
+	list-style: none;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+hr
+{
+	height: 0;
+	border-left: none;
+	border-right: 0;
+	border-top: 1px dashed #d7d7d7;
+	border-bottom: 1px dashed #d7d7d7;
+}
+
+a
+{
+	color: #666;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #F60;
+	text-decoration: underline;
+}
+
+.clearfix
+{
+	*zoom: 1;
+}
+
+.clearfix:before,.clearfix:after
+{
+	display: table;
+	content: "";
+}
+
+.clearfix:after
+{
+	clear: both;
+}
+
+/* content */
+.content
+{
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.content
+{
+	padding: 50px 0;
+	min-height: 720px;
+	background: #3a3c48 url("../images/log/content-bg.png");
+	width: 100%;
+}
+
+.content .wrapper
+{
+	position: relative;
+	width: 960px;
+	margin: 0 auto;
+}
+
+.content .light
+{
+	position: absolute;
+	left: 55px;
+	top: -50px;
+	width: 152px;
+	height: 191px;
+	background: url("../images/log/light-top.png") no-repeat top center;
+}
+
+.content .light i
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background: url("../images/log/light.png") no-repeat top center;
+}
+
+.content .line-left
+{
+	position: absolute;
+	left: 0;
+	top: 15px;
+	width: 70px;
+}
+
+.content .line-right
+{
+	position: absolute;
+	right: 0;
+	top: 15px;
+	width: 460px;
+}
+
+.content .main
+{
+	background: url("../images/log/line-bg.png") repeat-y 249px 0;
+}
+
+.content .main .title
+{
+	position: absolute;
+	line-height: 40px;
+	padding-left: 67px;
+	left: 230px;
+	top: 0;
+	color: #58a6fb;
+	font-size: 24px;
+	background: url("../images/log/clock.png") no-repeat left top;
+}
+
+.content .main .year
+{
+	position: relative;
+	width: 100%;
+}
+
+.content .main .year .time-title
+{
+	height: 40px;
+	width: 170px;
+	padding-right: 30px;
+	font-size: 24px;
+	line-height: 40px;
+	text-align: right;
+}
+
+.content .main .year .time-title a
+{
+	color: #58a6fb;
+}
+
+.content .main .year .time-title i
+{
+	display: block;
+	position: relative;
+	height: 0;
+	width: 0;
+	left: 190px;
+	top: -20px;
+	border-width: 6px;
+	border-style: solid;
+	border-color: #59a7fb transparent transparent transparent;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+	-ms-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+	-webkit-transform-origin: 6px 3px;
+	-moz-transform-origin: 6px 3px;
+	-ms-transform-origin: 6px 3px;
+	-o-transform-origin: 6px 3px;
+	transform-origin: 6px 3px
+}
+
+.content .main .year .list
+{
+	margin: 10px 0;
+	position: relative;
+	overflow: hidden;
+	-webkit-transition: height 1s cubic-bezier(0.025,0.025,0.000,1.115),opacity 1s;
+	-moz-transition: height 1s cubic-bezier(0.025,0.025,0.000,1.115),opacity 1s;
+	-ms-transition: height 1s cubic-bezier(0.025,0.025,0.000,1.115),opacity 1s;
+	-o-transition: height 1s cubic-bezier(0.025,0.025,0.000,1.115),opacity 1s;
+	transition: height 1s cubic-bezier(0.025,0.025,0.000,1.115),opacity 1s;
+
+}
+
+.content .main .year .list ul
+{
+	bottom: 0;
+}
+
+.content .main .year .list ul li
+{
+	background: url("../images/log/circle.png") no-repeat 235px 31px;
+	padding: 30px 0;
+	color: #a1a4b8;
+}
+
+.content .main .year .list ul li.highlight
+{
+	background-image: url(http://p4.qhimg.com/d/inn/05a63fc5/circle-h.png);
+}
+
+.cls
+{
+	zoom: 1;
+}
+
+.cls:after
+{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.content .main .year .list ul li.highlight .date, .content .main .year .list ul li.highlight .intro
+{
+	color: #ec6a13;
+}
+
+.content .main .year .list ul li .date,.content .main .year .list ul li .version
+{
+	/* float: left; */
+	display: block;
+	clear: left;
+	width: 200px;
+	line-height: 24px;
+	text-align: right
+}
+
+.content .main .year .list ul li .date
+{
+	font-size: 18px;
+	line-height: 32px;
+	color: #bec1d5
+}
+
+.content .main .year .list ul li .intro, .content .main .year .list ul li .more
+{
+	float: left;
+	display: block;
+	width: 400px;
+	margin-left: 100px;
+	line-height: 24px;
+}
+
+.content .main .year .list ul li .intro
+{
+	font-size: 18px;
+	line-height: 32px;
+	color: #63d029;
+}
+
+.content .wrapper:first-child .main .year.closein .time-title i
+{
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg)
+}
+
+.content .wrapper:first-child .main .year.closein .list
+{
+	opacity: 0;
+	height: 0!important;
+}
+
+/* 新样式 */
+
+.more .right-img{
+	width: 250px;
+	height: 170px;
+}
+
+.cls{
+	position: relative;
+	height: 150px;
+	text-align: center;
+	margin: auto;
+}
+
+.cls *{
+	display: inline-block!important;
+}
+
+.cls .more{
+	float: right;
+	z-index: 100000;
+	width: auto!important;
+	margin-left: 50px!important;
+}
+
+.content .main .year .list ul li
+{
+	background: url("../images/log/circle.png") no-repeat 146px 110px;
+	padding: 30px 0;
+	color: #a1a4b8;
+}
+
+.cls .date{
+	margin-top: 76px!important;
+	width: auto!important;
+	display: inline-block!important;
+	float: left;
+	margin-left: 30px;
+}
+
+.content .wrapper{
+	width: 500px;
+}
+
+
+.content .main{
+	text-align: center;
+	width: 100%;
+	margin: auto;
+}
+
+.content .main .year .list ul li .intro, .content .main .year .list ul li .more {
+    display: block;
+    float: left;
+    line-height: 24px;
+    margin-left: 100px;
+    
+}
+
+
+.content .main .year {
+    position: relative;
+    margin: auto;
+}
+
+
+.content .main {
+    background: rgba(0, 0, 0, 0) url("../images/log/line-bg.png") repeat-y scroll 260px 0;
+}
+
+.content .main .year .list{
+	text-align: center;
+}
+
+.content .main .year .list ul {
+	margin: auto;
+	position: relative!important;
+}
+
+.content .main .year .time-title i{
+	left: 110px;
+	 border-color: #fe7e17 transparent transparent;
+}
+
+.content .main .year .time-title{
+	width: 100px;
+}
+
+.content .main .title{
+	left: 140px;
+}
+
+.timeline *{
+	box-sizing: content-box;
+}
+
+.time-title .time-btn{
+	height: 40px!important;
+}
+
+.time-title{
+	cursor: pointer;
+	color: #fe7e17;
+}
+
+.content .line-right {
+    left: 460px;
+    position: absolute;
+    top: 0;
+    width: 200px;
+}
+
+.content .line-left {
+    left: -10px;
+    position: absolute;
+    top: 0;
+    width: 200px;
+}
+
+.content .main .title {
+    left: 240px;
+    color: #fe7e17;
+}
+
+.timeline-btn{
+	text-align: center;
+	background-color: #d7d7d7;
+	padding: 11px 0;
+}
+
+.timeline-btn .close-toggle{
+	width: 45px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.hidden{
+	display: hidden
+}

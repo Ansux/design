@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>BOGUAN</title>
+   <link rel="stylesheet" href="css/font-ali.css"/>
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <link rel="stylesheet" href="css/bs.css">
+   <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+
+<body ng-app="myApp" ng-controller="myController" onload="init();">
+
+<section id="home"></section>
+
+<header class="navbar-wrapper">
+   <div class="navwrapper">
+      <div class="navbar navbar-inverse navbar-static-top">
+         <div class="container">
+            <div class="navbar-header">
+               <button class="navbar-toggle collapsed" type="button" data-toggle="collapse"
+                       data-target=".navbar-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+            </div>
+            <div class="navbar-collapse collapse" role="navigation">
+               <ul class="nav navbar-nav navbar-right">
+                  <li class="menuItem active">
+                     <a href="#home">网站首页</a>
+                     <span class="border-right"></span>
+                  </li>
+                  <li class="menuItem">
+                     <a href="#about">关于博观</a>
+                     <span class="border-right"></span>
+                  </li>
+                  <li class="menuItem">
+                     <a href="#news">公司动态</a>
+                     <span class="border-right"></span>
+                  </li>
+                  <li class="menuItem">
+                     <a href="#team">团队成员</a>
+                     <span class="border-right"></span>
+                  </li>
+                  <li class="menuItem">
+                     <a href="#case">业务案例</a>
+                     <span class="border-right"></span>
+                  </li>
+                  <li class="menuItem">
+                     <a href="#contact">联系我们</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- End Navbar -->
+</header>
+
+<section class="container-fluid transit">
+   <div class="row">
+      <video id="video" src="uploads/video.mp4" width="100%" autoplay loop></video>
+      <div class="fix-top blur"></div>
+      <div class="video2">
+         <video id="fix_video" src="uploads/video.mp4" width="100%" height="auto" controls="controls"></video>
+         <a id="close_video">
+            <i class="glyphicon glyphicon-remove"></i>
+         </a>
+      </div>
+      <div class="banner-detail">
+         <a id="play" href="">
+            <img src="./img/btn_play.png" alt=""/>
+         </a>
+      </div>
+      <!--<img class="img-responsive" src="img/banner_1.jpg" alt="">-->
+   </div>
+</section>
+<!--  end banner  -->
+
+<section id="about" class="container">
+   <div class="row about">
+      <div class="section-title">
+         <img src="img/title-about.png"/>
+      </div>
+      <div class="content clearfix">
+         <div class="col-md-6 picture">
+            <img class="img-responsive" src="img/banner_1.jpg" alt="">
+         </div>
+         <div class="col-md-6 textinfo">
+            <h3>桂林博观文化传播有限公司</h3>
+
+            <div class="text">
+               <p>
+                  桂林博观文化传播有限公司是一家集动画制作、影视广告、网站制作推广及手机APP设计和运行为一体的综合性文化传播企业。自成立以来，博观一直在思变中思进，在创造中创新，凭借良好的政府社会资源和项目运营能力、一直服务于政府机关、学校以及企业品牌。
+                  公司秉承“立足文化、服务社会、诚信经营、互利双赢”的发展理念，立志跻身于为全国最具影响力的文化传播公司。
+               </p>
+
+               <p>博观执着文化创意传播产业，致力于将新媒体、新技术与高品质创意思维相结合，运用系统的理念和实践方式形成品牌的提升之道，为客户挖掘潜力、整合资源、实现经济效益最大化。</p>
+            </div>
+         </div>
+      </div>
+      <div class="survey">
+         <div class="col-xs-3">
+            <div class="top-icon">
+               <img src="img/about-icon-1.png" alt=""/>
+            </div>
+            <div class="title">优质服务</div>
+            <div class="text">公司团队服务态度专业，工作认真负责能与客户进行良好沟通交流，合作愉快。</div>
+         </div>
+         <div class="col-xs-3">
+            <div class="top-icon">
+               <img src="img/about-icon-2.png" alt=""/>
+            </div>
+            <div class="title">公司主营</div>
+            <div class="text">现公司致力于动画制作、多媒体制作、网站建设与维护、移动应用、旅游产品、影视广告等业务。</div>
+         </div>
+         <div class="col-xs-3">
+            <div class="top-icon">
+               <img src="img/about-icon-3.png" alt=""/>
+            </div>
+            <div class="title">设计理念</div>
+            <div class="text">公司团队在追求设计创新、与时俱进的原则上，尽最大努力满足客户需求。</div>
+         </div>
+         <div class="col-xs-3">
+            <div class="top-icon">
+               <img src="img/about-icon-4.png" alt=""/>
+            </div>
+            <div class="title">未来发展</div>
+            <div class="text">公司发展趋势持续增长，随着地方政府扶持文化产业政策落实以及国内消费进一步升级，公司未来发展空间巨大。</div>
+         </div>
+      </div>
+   </div>
+</section>
+<!--  end about  -->
+
+<section class="container-fluid transit">
+   <div class="row">
+      <img src="./img/banner1.jpg" class="img-responsive" alt=""/>
+   </div>
+   <div class="text-content txt-fade">
+      <div class="cn">创新动力，非凡演绎</div>
+      <div class="en">Extraordinary interpretation of the innovation ability.</div>
+   </div>
+</section>
+<!--  end ad-1  -->
+
+<section id="news" class="container">
+   <div class="section-title">
+      <img src="img/title-news.png"/>
+   </div>
+   <div class="row news">
+      <div class="col-md-3 col-sm-4 col-xs-6 fade-in" ng-class="{'fade-out':changeNews}" ng-repeat="n in newsByPage">
+         <div class="thumbnail">
+            <a><img class="lazy" ng-src="uploads/news/{{n.feedimg}}.png"></a>
+            <div class="caption">
+               <a ng-click="showNews(n)" class="link-text" ng-bind="n.title"></a>
+               <time ng-bind="n.time"></time>
+               <p class="abstract" ng-bind="n.content|limitTo:50"></p>
+               <a class="link-btn" ng-click="showNews(n)">详 情</a>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="modal fade" id="NewsModal" data-backdrop="false">
+      <div class="modal-dialog modal-lg">
+         <div class="modal-content">
+            <div class="fade-in ori-img" ng-class="{'fade-out':changeFocus}">
+               <img ng-src="./uploads/news{{nowNews.newImgs[focusIndex].ori}}.jpg" alt=""/>
+            </div>
+            <div class="news-detail">
+               <div class="float-bg"></div>
+               <div class="imgs clearfix">
+                  <div style="margin-right: 6px; display: inline-block;" ng-repeat="n in nowNews.newImgs">
+                     <img ng-class="{'active':focusIndex==$index}" ng-click="focus(n,$index)"
+                          ng-src="./uploads/news{{n.thumb}}.jpg" alt=""/>
+                  </div>
+               </div>
+               <div class="title" ng-bind="nowNews.title"></div>
+               <div class="time" ng-bind="nowNews.time"></div>
+               <div class="content" ng-bind-html="nowNews.content|toStrusted"></div>
+            </div>
+         </div>
+         <!-- /.modal-content -->
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+               <img src="./img/close_pic.png" alt=""/>
+            </span>
+         </button>
+      </div>
+      <!-- /.modal-dialog -->
+   </div>
+   <!-- /.modal -->
+   <div class="pager">
+      <a href="###"><</a>
+      <a ng-repeat="p in pager" ng-click="changePageIndex(p)" ng-class="{'active':p==pageIndex}" ng-bind="p"></a>
+      <a href="###">></a>
+   </div>
+</section>
+<!--  end news  -->
+
+<section class="container-fluid transit">
+   <div class="row search-bg">
+      <div class="container">
+         <div class="title">时尚简约</div>
+         <div class="text">
+            <div class="en">Integrity is the survival of the Bo Guan.quality is the root of the development of the BoGuan. win,  is the way of Bo Guan.</div>
+            <div class="cn">——诚信，博观生存之本；品质，博观发展之根；共赢，博观绝胜之道。</div>
+         </div>
+         <div class="img">
+            <img class="img-responsive" src="./img/bg_bg.png" alt=""/>
+         </div>
+      </div>
+   </div>
+</section>
+<!--  end ad-2  -->
+
+<section id="team" class="container">
+   <div class="section-title">
+      <img src="img/title-team.png"/>
+   </div>
+   <div class="row">
+      <div class="team">
+         <div class="col-md-4 col-sm-6">
+            <div class="thumbnail">
+               <div class="image-box">
+                  <img src="uploads/team/t1.jpg" alt="Image-3">
+               </div>
+               <div class="text-desc">
+                  <h3>刘 涛</h3>
+
+                  <p>网页设计师</p>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-4 col-sm-6">
+            <div class="thumbnail">
+               <div class="image-box">
+                  <img src="uploads/team/t2.jpg" alt="Image-3">
+               </div>
+               <div class="text-desc">
+                  <h3>曾 祥</h3>
+
+                  <p>三维动画师</p>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-4 col-sm-6">
+            <div class="thumbnail">
+               <div class="image-box">
+                  <img src="uploads/team/t3.jpg" alt="Image-3">
+               </div>
+               <div class="text-desc">
+                  <h3>黄禹铜</h3>
+
+                  <p>二维动画师</p>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-4 col-sm-6">
+            <div class="thumbnail">
+               <div class="image-box">
+                  <img src="uploads/team/t4.jpg" alt="Image-3">
+               </div>
+               <div class="text-desc">
+                  <h3>陈昭圣</h3>
+
+                  <p>原画设计师</p>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-4 col-sm-6">
+            <div class="thumbnail">
+               <div class="image-box">
+                  <img src="uploads/team/t5.jpg" alt="Image-3">
+               </div>
+               <div class="text-desc">
+                  <h3>蒙锦慧</h3>
+
+                  <p>插画师</p>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-4 col-sm-6">
+            <div class="thumbnail">
+               <div class="image-box">
+                  <img src="uploads/team/t6.jpg" alt="Image-3">
+               </div>
+               <div class="text-desc">
+                  <h3>杨世江</h3>
+
+                  <p>二维动画师</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!--  end team  -->
+
+<section class="container-fluid transit" style="margin-top: 0px;">
+   <div class="row">
+      <canvas id="canvas" style="background-color:#FFFFFF"></canvas>
+   </div>
+</section>
+<!--  end idea  -->
+
+<section id="case" class="container case">
+   <div class="section-title">
+      <img src="img/title-case.png"/>
+   </div>
+   <div class="tabs-warp">
+      <!-- Nav tabs -->
+      <div class="row">
+         <ul class="tab-items clearfix" role="tablist">
+            <li role="presentation" class="item active">
+               <a href="#tab_flash" aria-controls="tab_flash" role="tab" data-toggle="tab">
+                  <i class="iconfont">&#xe65c;</i>
+                  <span>动画</span>
+               </a>
+            </li>
+            <li role="presentation" class="item">
+               <a href="#tab_video" aria-controls="tab_video" role="tab" data-toggle="tab">
+                  <i class="iconfont">&#xe634;</i>
+                  <span>影视</span>
+               </a>
+            </li>
+            <li role="presentation" class="item"><a href="#tab_apps" aria-controls="tab_apps" role="tab" data-toggle="tab">
+               <i class="iconfont">&#xe601;</i>
+               <span>APP制作</span>
+               </a>
+            </li>
+            <li role="presentation" class="item"><a href="#tab_web" aria-controls="tab_web" role="tab" data-toggle="tab">
+               <i class="iconfont">&#xe717;</i>
+               <span>网站建设</span>
+               </a>
+            </li>
+            <li role="presentation" class="item"><a href="#tab_tour" aria-controls="tab_tour" role="tab" data-toggle="tab">
+               <i class="iconfont">&#xe609;</i>
+               <span>旅游产品</span>
+               </a>
+            </li>
+         </ul>
+      </div>
+      <!-- Tab panes -->
+      <div class="tab-content">
+         <div role="tabpanel" class="tab-pane active" id="tab_flash">
+            <div class="row flash-list" ng-if="!showChildSection">
+               <div class="col-md-4 col-sm-4" ng-repeat="flash in cases.flashs">
+                  <div class="items" ng-class="{'small':flash.child!=undefined}">
+                     <a><img class="lazy" ng-src="uploads/case/flash/{{flash.id}}.jpg"></a>
+                     <div class="caption" ng-if="flash.child==undefined">
+                        <h3><a ng-bind="flash.title"></a></h3>
+                        <div class="txt" ng-bind="flash.content"></div>
+                     </div>
+                     <div class="link" ng-if="flash.child!=undefined">
+                        <a ng-click="showChild(flash)">MORE</a>
+                     </div>
+                  </div>
+               </div>
+               <!--
+               <div class="col-md-4 col-sm-4">
+                  <div class="items">
+                     <a><img class="lazy" src="uploads/case/flash/flash_02.jpg"></a>
+                     <div class="caption">
+                        <h3><a>4.15 全民国家安全教育日</a></h3>
+                        <div class="txt">动画片通过描述政治、国土、经济、社会、资源、网络等重点领域国家安全政策，传播国家安全方面的知识。强化全民责任意识，提高维护国家安全的能力。维护国家安全是每个公民应尽的义务，通过动画片的宣传形式，可以短时间内起到良好效果，让更多的社会公众接触和了解到国家安全方面的法律知识，特别是懂得如何依法履行自身的维护国家安全方面的职责和义务。</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 col-sm-4">
+                  <div class="items small">
+                     <a><img class="lazy" src="uploads/case/flash/flash_03.jpg"></a>
+                     <div class="link">
+                        <a href="">MORE</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 col-sm-4">
+                  <div class="items small">
+                     <a><img class="lazy" src="uploads/case/flash/flash_04.jpg"></a>
+                     <div class="link">
+                        <a href="">MORE</a>
+                     </div>
+                  </div>
+               </div>
+               -->
+            </div>
+            <div class="row chrild-flash" ng-if="showChildSection">
+               <div class="col-md-3 col-sm-4" ng-repeat="flash in childFlash.child">
+                  <div class="item">
+                     <a><img class="lazy" ng-src="uploads/case/flash/{{childFlash.name}}/{{flash.id}}.jpg"></a>
+                     <div class="info">
+                        <a ng-click="showCase(flash,'flash')" class="link-title" ng-bind="flash.title"></a>
+                        <div class="desc" ng-bind="flash.desc"></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3 col-sm-4">
+                  <div class="item none">
+                     <a><img class="lazy" ng-src="uploads/case/flash/anquan/1.jpg"></a>
+                     <div class="info"></div>
+                  </div>
+                  <a class="prev" ng-click="hideChild()">返回上一级>></a>
+               </div>
+            </div>
+         </div>
+         <div role="tabpanel" class="tab-pane" id="tab_video">
+            <div class="row">
+               <div class="col-md-4 col-sm-6" ng-repeat="v in cases.videos">
+                  <div class="thumbnail">
+                     <a><img class="lazy" ng-src="uploads/case/video/{{v.id}}.jpg"></a>
+                     <div class="caption">
+                        <a ng-click="showCase(v,'video')" class="link-text" ng-bind="v.title"></a>
+                        <a ng-click="showCase(v,'video')" class="link-btn">详情</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div role="tabpanel" class="tab-pane" id="tab_apps">
+            <div class="row">
+               <div class="col-md-4 col-sm-6" ng-repeat="app in cases.apps">
+                  <div class="thumbnail">
+                     <a><img class="lazy" ng-src="uploads/case/app/{{app.id}}.jpg"></a>
+
+                     <div class="caption">
+                        <a ng-click="showCase(app,'app')" class="link-text" ng-bind="app.title"></a>
+                        <a ng-click="showCase(app,'app')" class="link-btn">详情</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div role="tabpanel" class="tab-pane" id="tab_web">
+            <div class="row">
+               <div class="col-md-4 col-sm-6" ng-repeat="web in cases.webs">
+                  <div class="thumbnail">
+                     <a><img class="lazy" ng-src="uploads/case/web/{{web.id}}.jpg"></a>
+
+                     <div class="caption">
+                        <a ng-click="showCase(web,'web')" class="link-text" ng-bind="web.title"></a>
+                        <a ng-click="showCase(web,'web')" class="link-btn">详情</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div role="tabpanel" class="tab-pane" id="tab_tour">
+            <div class="row">
+               <div class="col-md-4 col-sm-6" ng-repeat="t in cases.tours">
+                  <div class="thumbnail">
+                     <a><img class="lazy" ng-src="uploads/case/tour/{{t.id}}.jpg"></a>
+                     <div class="caption">
+                        <a ng-click="showCase(t,'tour')" class="link-text" ng-bind="t.title"></a>
+                        <a ng-click="showCase(t,'tour')" class="link-btn">详情</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" id="CaseModal" data-backdrop="false">
+            <div class="modal-dialog modal-case">
+               <!-- /.modal-content -->
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+               </button>
+               <div class="modal-content">
+                  <img ng-src="uploads/case/{{nowCase.name}}/view_{{nowCase.model.id}}.jpg" alt=""/>
+               </div>
+            </div>
+            <!-- /.modal-dialog -->
+         </div>
+         <!-- /.modal -->
+      </div>
+   </div>
+</section>
+<!--  end idea  -->
+
+<section class="container-fluid" id="contact">
+   <div class="sec-title">
+      <img src="img/title_contact.png"/>
+   </div>
+   <div class="container">
+      <div class="row">
+         <div class="col-md-5">
+            <div class="col-md-12">
+               <div class="cu-line">
+                  <div class="circle"></div>
+                  <div class="text">广西桂林市桂林电子科技大学西校区</div>
+               </div>
+               <div class="cu-line">
+                  <div class="circle"></div>
+                  <div class="text">0773-2238720</div>
+               </div>
+               <div class="cu-line">
+                  <div class="circle"></div>
+                  <div class="text">511594363@qq.com</div>
+               </div>
+               <div class="cu-line">
+                  <div class="circle"></div>
+                  <div class="text">www.boguan.com</div>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-7">
+            <div class="col-md-6">
+               <input type="text" placeholder="请输入您的姓名"/>
+            </div>
+            <div class="col-md-6">
+               <input type="text" placeholder="请输入您的邮箱"/>
+            </div>
+            <div class="col-md-12">
+               <textarea rows="6" placeholder="您的留言"></textarea>
+            </div>
+            <div class="col-md-12 submit-btn">
+               <button type="button">发    送</button>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+<footer>
+   <div class="container">
+      <div class="footer-nav">
+         <a href="#home">网站首页</a><span>|</span>
+         <a href="#abount">关于博观</a><span>|</span>
+         <a href="#news">公司动态</a><span>|</span>
+         <a href="#team">团队成员</a><span>|</span>
+         <a href="#case">业务案例</a><span>|</span>
+         <a href="#contact">联系我们</a>
+      </div>
+      <div class="copyright">
+         <p>版权所有 2016 桂林博观文化传播有限公司</p>
+         <p>Copyright © 2016 桂林博观文化传播有限公司</p>
+         <p>【关注微信号】</p>
+         <p><img src="./img/WeChat.jpg" alt=""/></p>
+      </div>
+   </div>
+</footer>
+
+<script src="./js/jquery.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/stickUp.min.js"></script>
+<script type="text/javascript">
+   jQuery(function ($) {
+      $(document).ready(function () {
+         $(".menuItem").click(function () {
+            $("html, body").animate({
+               scrollTop: $($(this).find('a').attr("href")).offset().top
+            }, 1000);
+            return false;
+         });
+
+         $(window).resize(resizeCanvas);
+         function resizeCanvas() {
+            var width = $(window).get(0).innerWidth;
+            $('#canvas').attr('width',width);
+            $('#canvas').attr('height',width*0.292);
+         };
+
+         resizeCanvas()
+
+         $('.navbar-wrapper').stickUp({
+            parts: {
+               0: 'home',
+               1: 'about',
+               2: 'news',
+               3: 'team',
+               4: 'case',
+               5: 'contact'
+            },
+            itemClass: 'menuItem',
+            itemHover: 'active',
+            marginTop: 'auto'
+         });
+         $(window).resize(function () {
+            var height = $('.large-item').height();
+            if ($(window).width() > 768) {
+               height = height / 2;
+            }
+            $('.large-item').siblings().height(height);
+         });
+         var video = document.getElementById("video");
+         var fix_video = document.getElementById("fix_video");
+         $('#play').click(function () {
+            video.pause();
+            $('.fix-top').hide();
+            $('.banner-detail').hide();
+            $('.video2').show();
+            setTimeout(function () {
+               fix_video.play();
+            }, 100);
+         });
+         $('#close_video').click(function () {
+            video.play();
+            $('.fix-top').show();
+            $('.banner-detail').show();
+            $('.video2').hide();
+            fix_video.pause();
+         });
+
+         $(window).bind("scroll", function (event) {
+            //窗口的高度+看不见的顶部的高度=屏幕低部距离最顶部的高度
+            var thisButtomTop = parseInt($(window).height()) + parseInt($(window).scrollTop()) - 200;
+            var thisTop = parseInt($(window).scrollTop()); //屏幕顶部距离最顶部的高度
+            var PictureTop = parseInt($(".text-content").eq(0).offset().top);
+            if (PictureTop >= thisTop && PictureTop <= thisButtomTop) {
+               $(".text-content").eq(0).addClass('in');
+               //  $("#你的要滚动加载的ID").attr("src", $("#你的要滚动加载的ID").attr("haoroomslazyload"));
+               //此处可以执行你的加载函数，加载函数由原来的document.ready中，移到这里来！
+            }
+         })
+
+      });
+   });
+   $(window).load(function () {
+      setTimeout(function () {
+         (function () {
+            var height = $('.large-item').height();
+            if ($(window).width() > 768) {
+               height = height / 2;
+            }
+            $('.large-item').siblings().height(height);
+            console.log(height);
+         })();
+      }, 10)
+   });
+</script>
+<script src="js/angular.min.js"></script>
+<script type="text/javascript">
+   angular.module('myApp', [])
+       .controller('myController', function ($scope, $window, $timeout) {
+          $scope.news = [
+             {
+                title: '“全民国家安全教育日”公益宣传片在广西卫视黄金时段播出',
+                time: '2016-04-15',
+                content: "2016年4月15日是首个全民国家安全教育日，通过宣传片来介绍国家安全的概念以及确立全国国家安全教育日的意义，提高政府宣传工作效率。<br\>面对即将到来的首个全民国家安全教育日，于我们各级党委和领导干部而言，就是要深刻领会和把握总体国家安全观的重大意义和精神实质，以守土有责、守土负责、守土尽责的责任担当把总体国家安全观落到实处，以高度的思想自觉和行动自觉担负起维护国家安全的使命。于我们每个公民而言，就是要深入了解和掌握总体国家安全观的主要内涵和基本要求，自觉做国家安全的模范遵守者和坚决捍卫者，既确保自己一切言行都在遵纪守法、利国利民的轨道上运行，也对一切破坏和损害国家安全的现象和行为给予旗帜鲜明的反对、毫不含糊的抵制。人人投身其中，就必能筑起国家安全牢不可破的铜墙铁壁。",
+                feedimg: '/1/n_1',
+                newImgs: [
+                   {
+                      thumb: '/1/pic1_1-1',
+                      ori: '/1/pic1_01'
+                   },
+                   {
+                      thumb: '/1/pic1_1-2',
+                      ori: '/1/pic1_02'
+                   },
+                   {
+                      thumb: '/1/pic1_1-3',
+                      ori: '/1/pic1_03'
+                   }
+                ]
+             },
+             {
+                title: '“航天英雄——杨利伟”动画片片头制作完成',
+                time: '2016-04-10',
+                content: '杨利伟是中国进入太空的第一人。他是中国培养的第一代航天员，在中共十七大上当选为中央候补委员。杨利伟在原空军部队安全飞行1,350小时之久。2003年10月15日北京时间9时，杨利伟乘由长征二号F火箭运载的神舟五号飞船首次进入太空，象征着中国太空事业向前迈进一大步，起到了里程碑的作用。杨利伟是中国进入太空的第一人。2003年10月15日北京时间9时，杨利伟乘由长征二号F火箭运载的神舟五号飞船首次进入太空,象征着中国太空事业向前迈进一大步，起到了里程碑的作用。2016年4月10日，桂林博观文化传播有限公司根据杨利伟先生的自传《天地九重》中提到的一些回忆，组织重新编写出他选飞之前的故事，调整故事脉络，提取出关键情节，加入些情节使故事合理化，内容情节流畅自然。现已完成“航天英雄杨利伟”动画片头制作，经过数月的时间终于制作完成成片。团队成员都很激动，对于桂林博观文化传播有限公司来说这是一个良好的开端，以后的发展必定越来越好，公司的项目越来越多，越来越大。',
+                feedimg: '/2/n_2',
+                newImgs: [
+                   {
+                      thumb: '/2/pic2_1-1',
+                      ori: '/2/pic2_01'
+                   },
+                   {
+                      thumb: '/2/pic2_1-2',
+                      ori: '/2/pic2_02'
+                   },
+                   {
+                      thumb: '/2/pic2_1-3',
+                      ori: '/2/pic2_03'
+                   }
+                ]
+             },
+             {
+                title: '“考学超人”APP&PC端制作完成',
+                time: '2016-02-12',
+                content: '“考学超人”是一款课堂型应用，能够提供比较全面、系统的课程和学习场景。在课程设置上拥有较全面的专业、学科类目，在功能上APP都以在线教育PC端平台为基础，主要功能和课程设置也和PC端相似。“考学超人”APP分为学生版、教师版和家长版。学生版适合学生使用，主要是为了提高成绩或考试冲刺，海量题库，主要针对初高中生。学生版APP有金牌名师；中、高考模拟题、真题；学情诊断报告等模块。教师版APP适合老师使用，老师可以创建网络班级，可以在网络班级中进行管理，还能够及时布置作业，查看学生作业完成情况等等。家长版APP，方便家长及时了解自己的孩子练习情况，以及还可查看孩子的学情诊断报告等等功能。考学超人WEB端是进行学生、老师、家长身份验证的，身份信息验证后进入不同端的界面。总言而之，WEB端功能更齐全、强大。考学超人移动端产品即将上线，敬请期待！ ',
+                feedimg: '/3/n_3',
+                newImgs: [
+                   {
+                      thumb: '/3/pic3_1-1',
+                      ori: '/3/pic3_01'
+                   },
+                   {
+                      thumb: '/3/pic3_1-2',
+                      ori: '/3/pic3_02'
+                   },
+                   {
+                      thumb: '/3/pic3_1-3',
+                      ori: '/3/pic3_03'
+                   }
+                ]
+             },
+             {
+                title: '“广西高校精神文明建设系列动画”制作启动',
+                time: '2015-11-06',
+                content: '校园文明建设是学校全面工作的重要组成部分，是学校综合实力的重要表现，与学校建设和发展息息相关。这是由校园文明建设的内涵和延伸取决的。建设一支高思想素质、高文化素质、讲文明、讲礼貌的师生队伍；建设一个充满生机与活力的学校管理机制。校园环境建设（包括校园绿化美化、环境卫生、校园治安）；学生学习环境（包括教室、图书馆、实验室、室外学习环境）；学生生活环境（包括食堂、宿舍、校舍维护）；校园文化建设（包括学生室内文化娱乐场所、学生社团活动）；宣传阵地建设（包括广播、电视、校报、宣传栏、阅报栏等设施建设和制度建设）；校训学风建设（包括校风学风培养、法制纪律教育、学生学习风貌、文明行为养成）。校园文明建设，包括物资文明建设和精神文明建设两大部分。所以，我们把校园文明建设作为推动高校建设和发展的系统工程是决不为过的。',
+                feedimg: '/4/n_4',
+                newImgs: [
+                   {
+                      thumb: '/4/pic4_1-1',
+                      ori: '/4/pic4_01'
+                   },
+                   {
+                      thumb: '/4/pic4_1-2',
+                      ori: '/4/pic4_02'
+                   },
+                   {
+                      thumb: '/4/pic4_1-3',
+                      ori: '/4/pic4_03'
+                   }
+                ]
+             },
+             {
+                title: '“广西高校精神文明建设”公益广告制作完成',
+                time: '2015-11-28',
+                content: '校园文明建设是学校全面工作的重要组成部分，是学校综合实力的重要表现，与学校建设和发展息息相关。这是由校园文明建设的内涵和延伸取决的。建设一支高思想素质、高文化素质、讲文明、讲礼貌的师生队伍；建设一个充满生机与活力的学校管理机制。校园环境建设（包括校园绿化美化、环境卫生、校园治安）；学生学习环境（包括教室、图书馆、实验室、室外学习环境）；学生生活环境（包括食堂、宿舍、校舍维护）；校园文化建设（包括学生室内文化娱乐场所、学生社团活动）；宣传阵地建设（包括广播、电视、校报、宣传栏、阅报栏等设施建设和制度建设）；校训学风建设（包括校风学风培养、法制纪律教育、学生学习风貌、文明行为养成）。校园文明建设，包括物资文明建设和精神文明建设两大部分。所以，我们把校园文明建设作为推动高校建设和发展的系统工程是决不为过的。',
+                feedimg: '/5/n_5',
+                newImgs: [
+                   {
+                      thumb: '/5/pic5_1-1',
+                      ori: '/5/pic5_01'
+                   },
+                   {
+                      thumb: '/5/pic5_1-2',
+                      ori: '/5/pic5_02'
+                   },
+                   {
+                      thumb: '/5/pic5_1-3',
+                      ori: '/5/pic5_03'
+                   }
+                ]
+             },
+             {
+                title: '“桂林电子科技大学55周年校庆”宣传片',
+                time: '2015-09-05',
+                content: '本宣传片主要介绍桂林电子科技大学历史沿革、办学条件、师资力量、学术研究、科研成果等相关信息。桂林电子科技大学座落在世界著名的风景游览城市和中国历史文化名城——广西壮族自治区桂林市，是工业和信息化部与广西壮族自治区共建高校、广西壮族自治区重点建设高校。中国绕月探测工程总设计师、国家最高科学技术奖获得者、中国科学院孙家栋院士为学校名誉校长。桂林电子科技大学图书馆始建于1960年，前身分别是桂林无线电专科学校图书馆和桂林电子工业学院图书馆。分为金鸡岭校区图书馆和花江校区图书馆，其中花江校区图书馆是我国高校单体建筑面积最大之一的图书馆，建筑面积4.5万余平方米。图书馆设有办公室、技术信息部、采编部、流通部、阅览部、花江校区管理部等业务部门。馆藏纸质图书174万册、电子图书 123万种、外文核心数据库26个、中文数据库45个、中外文期刊（含电子期刊）达19000多种。具有先进的网络信息平台，各类公共服务设施齐全。学校办学条件处于广西高校前列及国内同类院校先进水平等等。',
+                feedimg: '/6/n_6',
+                newImgs: [
+                   {
+                      thumb: '/6/pic6_1-1',
+                      ori: '/6/pic6_01'
+                   },
+                   {
+                      thumb: '/6/pic6_1-2',
+                      ori: '/6/pic6_02'
+                   },
+                   {
+                      thumb: '/6/pic6_1-3',
+                      ori: '/6/pic6_03'
+                   }
+                ]
+             }
+          ];
+          $scope.showNews = function (news) {
+             $scope.nowNews = news;
+             $scope.focusIndex = 0;
+             $('#NewsModal').modal();
+          }
+          $scope.focus = function (n, index) {
+             $scope.changeFocus = true;
+             $timeout(function () {
+                $scope.changeFocus = false;
+             }, 500)
+             $scope.focusIndex = index;
+          }
+
+          $scope.getResize = function () {
+             var width = $window.innerWidth;
+             if (width >= 992) {
+                $scope.pageSize = 4;
+             } else if (width < 992 && width > 768) {
+                $scope.pageSize = 3;
+             } else {
+                $scope.pageSize = 2;
+             }
+          }
+          $scope.getResize();
+
+          $scope.pageIndex = 1;
+          $scope.changePageIndex = function (i) {
+             $scope.changeNews = true;
+             $timeout(function () {
+                $scope.changeNews = false;
+             }, 500)
+             $scope.pageIndex = i;
+          }
+          $scope.$watch("pageIndex", function (nv, ov) {
+             $scope.newsByPage = $scope.news.slice((nv - 1) * $scope.pageSize, (nv - 1) * $scope.pageSize + $scope.pageSize);
+             $scope.pager = $scope.pagerDesign($scope.news.length / $scope.pageSize);
+          });
+          $scope.$watch("pageSize", function (nv, ov) {
+             $scope.pageIndex = 1;
+             $scope.newsByPage = $scope.news.slice(0, nv);
+          });
+
+          $scope.cases = {
+             flashs: [
+                {
+                   id: 1,
+                   title: '立正，看齐，做个合格党员',
+                   content: '通过生动的动画形式来传达“学习共产党党章党规；学习贯彻习近平总书记系列重要讲话精神；做合格党员”的思想。“两学一做”学习教育有利于夯实执政基础;有利于激活党员细胞;有利于强化基层堡垒。动画主题曲极具特色的动感节奏，音乐清新明亮，歌词朗朗上口，颇有复古神曲的风范，是新一代党思想“神曲“。'
+                },
+                {
+                   id: 2,
+                   title: '4.15 全民国家安全教育日',
+                   content: '动画片通过描述政治、国土、经济、社会、资源、网络等重点领域国家安全政策，传播国家安全方面的知识。强化全民责任意识，提高维护国家安全的能力。维护国家安全是每个公民应尽的义务，通过动画片的宣传形式，可以短时间内起到良好效果，让更多的社会公众接触和了解到国家安全方面的法律知识，特别是懂得如何依法履行自身的维'
+                },
+                {
+                   id: 3,
+                   name: 'anquan',
+                   title: '广西校园安全教育系列动画',
+                   content: '通过生动精简的情景剧和以一问一答的反问方式来展开“防火灾、防反暴恐应急措施、防敲诈勒索、交通安全、地震应急知识、暴力打人事件、防拐、防溺水”等安全主题故事；涵盖多个与中小学日程生活息息相关的最具代表性的各类安全知识点。适合中小学学生观看学习的安全教育资源片。',
+                   child: [
+                      {
+                         id: 1,
+                         title: '第一集',
+                         desc: '广西校园安全教育动画——溺水事故'
+                      },
+                      {
+                         id: 2,
+                         title: '第二集',
+                         desc: '广西校园安全教育动画——防拐'
+                      },
+                      {
+                         id: 3,
+                         title: '第三集',
+                         desc: '广西校园安全教育动画——防敲诈勒索'
+                      },
+                      {
+                         id: 4,
+                         title: '第四集',
+                         desc: '广西校园安全教育动画——防火灾'
+                      },
+                      {
+                         id: 5,
+                         title: '第五集',
+                         desc: '广西校园安全教育动画——防暴恐'
+                      },
+                      {
+                         id: 6,
+                         title: '第六集',
+                         desc: '广西校园安全教育动画——暴力打人'
+                      },
+                      {
+                         id: 7,
+                         title: '第七集',
+                         desc: '广西校园安全教育动画——地震应急知识'
+                      }
+                   ]
+                },
+                {
+                   id: 4,
+                   name: 'jingshen',
+                   title: '广西高校精神文明建设系列动画',
+                   content: '本系列动画剧情多为大学校园里常见的不文明现象。常见现象如在教室占座；考试时趁老师不注意，偷偷拿手机作弊，同学提醒还无动于衷；在教学区里快速的骑行；选班干部时，用物质条件交换票数等多种不文明行为。通过制作一系列动画来引起学生的共鸣，传达正能量。等。',
+                   child: [
+                      {
+                         id: 1,
+                      },
+                      {
+                         id: 2,
+                      },
+                      {
+                         id: 3,
+                      },
+                      {
+                         id: 4,
+                      },
+                      {
+                         id: 5,
+                      },
+                      {
+                         id: 6,
+                      },
+                      {
+                         id: 7,
+                      }
+                   ]
+                }
+             ],
+             videos: [
+                {
+                   id:1,
+                   title:'学习类APP--考学超人学生版',
+                },
+                {
+                   id:2,
+                   title:'学习类APP--考学超人教师版',
+                },
+                {
+                   id:3,
+                   title:'生活类APP--福环',
+                },
+                {
+                   id:4,
+                   title:'生活类APP--福环',
+                },
+                {
+                   id:5,
+                   title:'学习类APP--考学超人教师版',
+                },
+                {
+                   id:6,
+                   title:'学习类APP--考学超人学生版',
+                }
+             ],
+             apps: [
+                {
+                   id:1,
+                   title:'考学超人学生版',
+                },
+                {
+                   id:2,
+                   title:'考学超人教师版',
+                },
+                {
+                   id:3,
+                   title:'中国国电集团',
+                },
+                {
+                   id:4,
+                   title:'CSMF-体育营销论坛',
+                },
+                {
+                   id:5,
+                   title:'味道锅饭',
+                },
+                {
+                   id:6,
+                   title:'福环',
+                }
+             ],
+             webs: [
+                {
+                   id:1,
+                   title:'考学超人',
+                },
+                {
+                   id:2,
+                   title:'气功网',
+                },
+                {
+                   id:3,
+                   title:'桂电',
+                },
+                {
+                   id:4,
+                   title:'广西招生考试网',
+                },
+                {
+                   id:5,
+                   title:'思政网',
+                },
+                {
+                   id:6,
+                   title:'凌云县沙里乡弄塘村党建信息化平台',
+                }
+             ],
+             tours: [
+                {
+                   id:1,
+                   title:'绘本周边产品',
+                }
+             ]
+          };
+
+          $scope.showCase = function(model,name){
+             $scope.nowCase = undefined;
+             $scope.nowCase = {
+               model: model,
+               name: name
+             };
+             console.log($scope.nowCase);
+             $timeout(function(){
+                $('#CaseModal').modal();
+             },10)
+          }
+
+          $scope.showChild = function(flash){
+             $scope.showChildSection = !$scope.showChildSection;
+             $scope.childFlash = flash;
+          }
+
+          $scope.hideChild = function(){
+             $scope.showChildSection = false;
+             $scope.childFlash = undefined;
+          }
+
+          $scope.pagerDesign = function (val) {
+             var arr = [];
+             for (var i = 0; i < val; i++) {
+                arr.push(i + 1);
+             }
+             return arr;
+          }
+
+          angular.element($window).bind('resize', function () {
+             $scope.getResize();
+             $scope.$apply();
+          });
+       })
+       .filter('toStrusted', function ($sce) {
+          return function (html) {
+             return $sce.trustAsHtml(html);
+          }
+       });
+</script>
+
+<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+<script src="index.js"></script>
+<script>
+   var canvas, stage, exportRoot;
+   function init() {
+      // --- write your JS code here ---
+
+      canvas = document.getElementById("canvas");
+      images = images||{};
+      ss = ss||{};
+
+      var loader = new createjs.LoadQueue(false);
+      loader.addEventListener("fileload", handleFileLoad);
+      loader.addEventListener("complete", handleComplete);
+      loader.loadFile({src:"images/index_atlas_.json", type:"spritesheet", id:"index_atlas_"}, true);
+      loader.loadManifest(lib.properties.manifest);
+   }
+
+   function handleFileLoad(evt) {
+      if (evt.item.type == "image") { images[evt.item.id] = evt.result; }
+   }
+
+   function handleComplete(evt) {
+      var queue = evt.target;
+      ss["index_atlas_"] = queue.getResult("index_atlas_");
+      exportRoot = new lib.Html5();
+
+      stage = new createjs.Stage(canvas);
+      stage.addChild(exportRoot);
+      stage.update();
+
+      var width = $(window).get(0).innerWidth;
+      if(width == undefined){
+         width = 1920;
+      }
+
+      stage.scaleY = width/1920;
+      stage.scaleX = width/1920;
+
+      createjs.Ticker.setFPS(lib.properties.fps);
+      createjs.Ticker.addEventListener("tick", stage);
+   }
+
+   window.onresize = function() {
+      var width = $(window).get(0).innerWidth;
+      stage.scaleY = width/1920;
+      stage.scaleX = width/1920;
+   }
+
+</script>
+</body>
+
+</html>
