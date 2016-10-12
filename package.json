@@ -1,0 +1,38 @@
+{
+  "name": "design",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ansux/design.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ansux/design/issues"
+  },
+  "homepage": "https://github.com/Ansux/design#readme",
+  "devDependencies": {
+    "angular": "^1.2.32",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "bootstrap": "^3.3.7",
+    "css-loader": "^0.25.0",
+    "expose-loader": "^0.7.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.22.0",
+    "html-withimg-loader": "^0.1.16",
+    "image-webpack-loader": "^2.0.0",
+    "jquery": "^3.1.1",
+    "json-loader": "^0.5.4",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  }
+}

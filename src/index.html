@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BOGUAN</title>
+
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+
+<body ng-app="myApp" ng-controller="myController">
+
+  <section id="home"></section>
+
+  <header class="navbar-wrapper">
+    <div class="navwrapper">
+      <div class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+          </div>
+          <div class="navbar-collapse collapse" role="navigation">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="menuItem active">
+                <a href="#home">网站首页</a>
+                <span class="border-right"></span>
+              </li>
+              <li class="menuItem">
+                <a href="#about">关于博观</a>
+                <span class="border-right"></span>
+              </li>
+              <li class="menuItem">
+                <a href="#news">公司动态</a>
+                <span class="border-right"></span>
+              </li>
+              <li class="menuItem">
+                <a href="#team">团队成员</a>
+                <span class="border-right"></span>
+              </li>
+              <li class="menuItem">
+                <a href="#case">业务案例</a>
+                <span class="border-right"></span>
+              </li>
+              <li class="menuItem">
+                <a href="#contact">联系我们</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Navbar -->
+  </header>
+
+  <section class="container-fluid transit">
+    <div class="row">
+      <video id="video" src="uploads/video.mp4" width="100%" autoplay loop></video>
+      <div class="fix-top blur"></div>
+      <div class="video2">
+        <video id="fix_video" src="uploads/video.mp4" width="100%" height="auto" controls="controls"></video>
+        <a id="close_video">
+          <i class="glyphicon glyphicon-remove"></i>
+        </a>
+      </div>
+      <div class="banner-detail">
+        <a id="play" href="">
+          <img src="./img/btn_play.png" alt="" />
+        </a>
+      </div>
+      <!--<img class="img-responsive" src="img/banner_1.jpg" alt="">-->
+    </div>
+  </section>
+  <!--  end banner  -->
+
+  <section id="about" class="container">
+    <div class="row about">
+      <div class="section-title">
+        <img src="img/title-about.png" />
+      </div>
+      <div class="content clearfix">
+        <div class="col-md-6 picture">
+          <img class="img-responsive" src="img/banner_1.jpg" alt="">
+        </div>
+        <div class="col-md-6 textinfo">
+          <h3>桂林博观文化传播有限公司</h3>
+          <div class="text">
+            <p>
+              桂林博观文化传播有限公司是一家集动画制作、影视广告、网站制作推广及手机APP设计和运行为一体的综合性文化传播企业。自成立以来，博观一直在思变中思进，在创造中创新，凭借良好的政府社会资源和项目运营能力、一直服务于政府机关、学校以及企业品牌。 公司秉承“立足文化、服务社会、诚信经营、互利双赢”的发展理念，立志跻身于为全国最具影响力的文化传播公司。
+            </p>
+            <p>博观执着文化创意传播产业，致力于将新媒体、新技术与高品质创意思维相结合，运用系统的理念和实践方式形成品牌的提升之道，为客户挖掘潜力、整合资源、实现经济效益最大化。</p>
+          </div>
+        </div>
+      </div>
+      <div class="survey">
+        <div class="col-xs-3">
+          <div class="top-icon">
+            <img src="img/about-icon-1.png" alt="" />
+          </div>
+          <div class="title">优质服务</div>
+          <div class="text">公司团队服务态度专业，工作认真负责能与客户进行良好沟通交流，合作愉快。</div>
+        </div>
+        <div class="col-xs-3">
+          <div class="top-icon">
+            <img src="img/about-icon-2.png" alt="" />
+          </div>
+          <div class="title">公司主营</div>
+          <div class="text">现公司致力于动画制作、多媒体制作、网站建设与维护、移动应用、旅游产品、影视广告等业务。</div>
+        </div>
+        <div class="col-xs-3">
+          <div class="top-icon">
+            <img src="img/about-icon-3.png" alt="" />
+          </div>
+          <div class="title">设计理念</div>
+          <div class="text">公司团队在追求设计创新、与时俱进的原则上，尽最大努力满足客户需求。</div>
+        </div>
+        <div class="col-xs-3">
+          <div class="top-icon">
+            <img src="img/about-icon-4.png" alt="" />
+          </div>
+          <div class="title">未来发展</div>
+          <div class="text">公司发展趋势持续增长，随着地方政府扶持文化产业政策落实以及国内消费进一步升级，公司未来发展空间巨大。</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--  end about  -->
+
+  <section class="container-fluid transit">
+    <div class="row">
+      <img src="./img/banner1.jpg" class="img-responsive" alt="" />
+    </div>
+    <div class="text-content txt-fade">
+      <div class="cn">创新动力，非凡演绎</div>
+      <div class="en">Extraordinary interpretation of the innovation ability.</div>
+    </div>
+  </section>
+  <!--  end ad-1  -->
+
+  <section id="news" class="container">
+    <div class="section-title">
+      <img src="img/title-news.png" />
+    </div>
+    <div class="row news">
+      <div class="col-md-3 col-sm-4 col-xs-6 fade-in" ng-class="{'fade-out':changeNews}" ng-repeat="n in newsByPage">
+        <div class="thumbnail">
+          <a><img class="lazy" ng-src="uploads/news/{{n.feedimg}}.png"></a>
+          <div class="caption">
+            <a ng-click="showNews(n)" class="link-text" ng-bind="n.title"></a>
+            <time ng-bind="n.time"></time>
+            <p class="abstract" ng-bind="n.content|limitTo:50"></p>
+            <a class="link-btn" ng-click="showNews(n)">详 情</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="NewsModal" data-backdrop="false">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="fade-in ori-img" ng-class="{'fade-out':changeFocus}">
+            <img ng-src="./uploads/news{{nowNews.newImgs[focusIndex].ori}}.jpg" alt="" />
+          </div>
+          <div class="news-detail">
+            <div class="float-bg"></div>
+            <div class="imgs clearfix">
+              <div style="margin-right: 6px; display: inline-block;" ng-repeat="n in nowNews.newImgs">
+                <img ng-class="{'active':focusIndex==$index}" ng-click="focus(n,$index)" ng-src="./uploads/news{{n.thumb}}.jpg" alt="" />
+              </div>
+            </div>
+            <div class="title" ng-bind="nowNews.title"></div>
+            <div class="time" ng-bind="nowNews.time"></div>
+            <div class="content" ng-bind-html="nowNews.content|toStrusted"></div>
+          </div>
+        </div>
+        <!-- /.modal-content -->
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+               <img src="./img/close_pic.png" alt=""/>
+            </span>
+         </button>
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+    <div class="pager">
+      <a ng-repeat="p in pager" ng-click="changePageIndex(p)" ng-class="{'active':p===pageIndex}" ng-bind="p"></a>
+    </div>
+  </section>
+  <!--  end news  -->
+
+  <section class="container-fluid transit">
+    <div class="row search-bg">
+      <div class="container">
+        <div class="title">时尚简约</div>
+        <div class="text">
+          <div class="en">Integrity is the survival of the Bo Guan.quality is the root of the development of the BoGuan. win, is the way
+            of Bo Guan.</div>
+          <div class="cn">——诚信，博观生存之本；品质，博观发展之根；共赢，博观绝胜之道。</div>
+        </div>
+        <div class="img">
+          <img class="img-responsive" src="./img/bg_bg.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--  end ad-2  -->
+
+  <section id="team" class="container">
+    <div class="section-title">
+      <img src="img/title-team.png" />
+    </div>
+    <div class="row">
+      <div class="team">
+        <div class="col-md-4 col-sm-6">
+          <div class="thumbnail">
+            <div class="image-box">
+              <img src="./uploads/team/t1.jpg" alt="Image-3">
+            </div>
+            <div class="text-desc">
+              <h3>刘 涛</h3>
+
+              <p>网页设计师</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="thumbnail">
+            <div class="image-box">
+              <img src="./uploads/team/t2.jpg" alt="Image-3">
+            </div>
+            <div class="text-desc">
+              <h3>曾 祥</h3>
+
+              <p>三维动画师</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="thumbnail">
+            <div class="image-box">
+              <img src="./uploads/team/t3.jpg" alt="Image-3">
+            </div>
+            <div class="text-desc">
+              <h3>黄禹铜</h3>
+
+              <p>二维动画师</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="thumbnail">
+            <div class="image-box">
+              <img src="./uploads/team/t4.jpg" alt="Image-3">
+            </div>
+            <div class="text-desc">
+              <h3>陈昭圣</h3>
+
+              <p>原画设计师</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="thumbnail">
+            <div class="image-box">
+              <img src="./uploads/team/t5.jpg" alt="Image-3">
+            </div>
+            <div class="text-desc">
+              <h3>蒙锦慧</h3>
+
+              <p>插画师</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="thumbnail">
+            <div class="image-box">
+              <img src="./uploads/team/t6.jpg" alt="Image-3">
+            </div>
+            <div class="text-desc">
+              <h3>杨世江</h3>
+
+              <p>二维动画师</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--  end team  -->
+
+  <section id="case" class="container case">
+    <div class="section-title">
+      <img src="img/title-case.png" />
+    </div>
+    <div class="tabs-warp">
+      <!-- Nav tabs -->
+      <div class="row">
+        <ul class="tab-items clearfix" role="tablist">
+          <li role="presentation" class="item active">
+            <a href="#tab_flash" aria-controls="tab_flash" role="tab" data-toggle="tab">
+              <i class="iconfont">&#xe65c;</i>
+              <span>动画</span>
+            </a>
+          </li>
+          <li role="presentation" class="item">
+            <a href="#tab_video" aria-controls="tab_video" role="tab" data-toggle="tab">
+              <i class="iconfont">&#xe634;</i>
+              <span>影视</span>
+            </a>
+          </li>
+          <li role="presentation" class="item">
+            <a href="#tab_apps" aria-controls="tab_apps" role="tab" data-toggle="tab">
+              <i class="iconfont">&#xe601;</i>
+              <span>APP制作</span>
+            </a>
+          </li>
+          <li role="presentation" class="item">
+            <a href="#tab_web" aria-controls="tab_web" role="tab" data-toggle="tab">
+              <i class="iconfont">&#xe717;</i>
+              <span>网站建设</span>
+            </a>
+          </li>
+          <li role="presentation" class="item">
+            <a href="#tab_tour" aria-controls="tab_tour" role="tab" data-toggle="tab">
+              <i class="iconfont">&#xe609;</i>
+              <span>旅游产品</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="tab_flash">
+          <div class="row flash-list" ng-if="!showChildSection">
+            <div class="col-md-4 col-sm-4" ng-repeat="flash in cases.flashs">
+              <div class="items" ng-class="{'small':flash.child!=undefined}">
+                <a><img class="lazy" ng-src="uploads/case/flash/{{flash.id}}.jpg"></a>
+                <div class="caption" ng-if="flash.child==undefined">
+                  <h3>
+                    <a ng-bind="flash.title"></a>
+                  </h3>
+                  <div class="txt" ng-bind="flash.content"></div>
+                </div>
+                <div class="link" ng-if="flash.child!=undefined">
+                  <a ng-click="showChild(flash)">MORE</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row chrild-flash" ng-if="showChildSection">
+            <div class="col-md-3 col-sm-4" ng-repeat="flash in childFlash.child">
+              <div class="item">
+                <a><img class="lazy" ng-src="uploads/case/flash/{{childFlash.name}}/{{flash.id}}.jpg"></a>
+                <div class="info">
+                  <a ng-click="showCase(flash,'flash')" class="link-title" ng-bind="flash.title"></a>
+                  <div class="desc" ng-bind="flash.desc"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <div class="item none">
+                <a><img class="lazy" ng-src="uploads/case/flash/anquan/1.jpg"></a>
+                <div class="info"></div>
+              </div>
+              <a class="prev" ng-click="hideChild()">返回上一级>></a>
+            </div>
+          </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="tab_video">
+          <div class="row">
+            <div class="col-md-4 col-sm-6" ng-repeat="v in cases.videos">
+              <div class="thumbnail">
+                <a><img class="lazy" ng-src="uploads/case/video/{{v.id}}.jpg"></a>
+                <div class="caption">
+                  <a ng-click="showCase(v,'video')" class="link-text" ng-bind="v.title"></a>
+                  <a ng-click="showCase(v,'video')" class="link-btn">详情</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="tab_apps">
+          <div class="row">
+            <div class="col-md-4 col-sm-6" ng-repeat="app in cases.apps">
+              <div class="thumbnail">
+                <a><img class="lazy" ng-src="uploads/case/app/{{app.id}}.jpg"></a>
+
+                <div class="caption">
+                  <a ng-click="showCase(app,'app')" class="link-text" ng-bind="app.title"></a>
+                  <a ng-click="showCase(app,'app')" class="link-btn">详情</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="tab_web">
+          <div class="row">
+            <div class="col-md-4 col-sm-6" ng-repeat="web in cases.webs">
+              <div class="thumbnail">
+                <a><img class="lazy" ng-src="uploads/case/web/{{web.id}}.jpg"></a>
+
+                <div class="caption">
+                  <a ng-click="showCase(web,'web')" class="link-text" ng-bind="web.title"></a>
+                  <a ng-click="showCase(web,'web')" class="link-btn">详情</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="tab_tour">
+          <div class="row">
+            <div class="col-md-4 col-sm-6" ng-repeat="t in cases.tours">
+              <div class="thumbnail">
+                <a><img class="lazy" ng-src="uploads/case/tour/{{t.id}}.jpg"></a>
+                <div class="caption">
+                  <a ng-click="showCase(t,'tour')" class="link-text" ng-bind="t.title"></a>
+                  <a ng-click="showCase(t,'tour')" class="link-btn">详情</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="CaseModal" data-backdrop="false">
+          <div class="modal-dialog modal-case">
+            <!-- /.modal-content -->
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+               </button>
+            <div class="modal-content">
+              <img ng-src="uploads/case/{{nowCase.name}}/view_{{nowCase.model.id}}.jpg" alt="" />
+            </div>
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+      </div>
+    </div>
+  </section>
+  <!--  end idea  -->
+
+  <section class="container-fluid" id="contact">
+    <div class="sec-title">
+      <img src="img/title_contact.png" />
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="col-md-12">
+            <div class="cu-line">
+              <div class="circle"></div>
+              <div class="text">广西桂林市桂林电子科技大学西校区</div>
+            </div>
+            <div class="cu-line">
+              <div class="circle"></div>
+              <div class="text">0773-2238720</div>
+            </div>
+            <div class="cu-line">
+              <div class="circle"></div>
+              <div class="text">511594363@qq.com</div>
+            </div>
+            <div class="cu-line">
+              <div class="circle"></div>
+              <div class="text">www.boguan.com</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="col-md-6">
+            <input type="text" placeholder="请输入您的姓名" />
+          </div>
+          <div class="col-md-6">
+            <input type="text" placeholder="请输入您的邮箱" />
+          </div>
+          <div class="col-md-12">
+            <textarea rows="6" placeholder="您的留言"></textarea>
+          </div>
+          <div class="col-md-12 submit-btn">
+            <button type="button">发    送</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-nav">
+        <a href="#home">网站首页</a><span>|</span>
+        <a href="#abount">关于博观</a><span>|</span>
+        <a href="#news">公司动态</a><span>|</span>
+        <a href="#team">团队成员</a><span>|</span>
+        <a href="#case">业务案例</a><span>|</span>
+        <a href="#contact">联系我们</a>
+      </div>
+      <div class="copyright">
+        <p>版权所有 2016 桂林博观文化传播有限公司</p>
+        <p>Copyright © 2016 桂林博观文化传播有限公司</p>
+        <p>【关注微信号】</p>
+        <p><img src="./img/WeChat.jpg" alt="" /></p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
